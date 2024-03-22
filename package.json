@@ -1,0 +1,75 @@
+{
+  "name": "laborealiquid",
+  "version": "1.0.0",
+  "description": "GraphQL Typescript Client Generator",
+  "author": "ElisaBalistreri",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "homepage": "https://github.com/JustusSchiller/laborealiquid.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JustusSchiller/laborealiquid.git"
+  },
+  "peerDependencies": {},
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "proseWrap": "always",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "avoid",
+    "endOfLine": "lf",
+    "printWidth": 130,
+    "htmlWhitespaceSensitivity": "ignore",
+    "jsxSingleQuote": false
+  },
+  "module": "dist/graphql-ts-client.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/graphql-ts-client.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/graphql-ts-client.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "dependencies": {
+    "case": "^1.6.3",
+    "cross-fetch": "^3.1.4",
+    "graphql": "^15.6.0",
+    "lodash": "^4.17.21",
+    "memoizee": "^0.4.15",
+    "prettier": "^2.4.1",
+    "ts-essentials": "^8.1.0"
+  },
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^5.0.4",
+    "@types/graphql": "^14.5.0",
+    "@types/jest": "^27.0.2",
+    "@types/lodash": "^4.14.173",
+    "@types/memoizee": "^0.4.6",
+    "@types/node": "^16.9.6",
+    "@types/prettier": "^2.3.2",
+    "apollo-server": "^3.3.0",
+    "concurrently": "^6.2.1",
+    "cross-env": "^7.0.3",
+    "size-limit": "^5.0.4",
+    "tsdx": "https://github.com/agilgur5/tsdx.git#dist-multi",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "bugs": {
+    "url": "https://github.com/JustusSchiller/laborealiquid.git/issues"
+  }
+}
